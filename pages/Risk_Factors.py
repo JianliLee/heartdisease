@@ -20,7 +20,6 @@ st.markdown(
 """
 )
 
-@st.cache
 hd = pd.read_csv ('heart_2020_cleaned_JL.csv')
 
 # bar_age = alt.Chart(hd,title= "Age").mark_bar().encode(
