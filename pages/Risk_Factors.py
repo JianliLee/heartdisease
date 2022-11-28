@@ -34,7 +34,7 @@ hd = pd.read_csv ('heart_2020_cleaned_JL.csv')
 #     color = "HeartDisease"
 # )
 
-bar_age = alt.Chart(hd).transform_aggregate(
+bar_age = alt.Chart(hd,title= "Age").transform_aggregate(
     count='count()',
     groupby=['HeartDisease', 'AgeCategory']
 ).transform_joinaggregate(
@@ -47,7 +47,7 @@ bar_age = alt.Chart(hd).transform_aggregate(
     y=alt.Y('count:Q', stack="normalize", axis=alt.Axis(title="Percent", format="%")),
     color='HeartDisease:N',
     tooltip=[
-        alt.Tooltip('count:Q', title=f"Total records"),
+        alt.Tooltip('count:Q', title="Total records"),
         alt.Tooltip('frac:Q', title="Percentage of heart disease", format='.0%')
     ]
 )
