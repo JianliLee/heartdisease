@@ -48,7 +48,7 @@ bar_age = alt.Chart(hd,title= "Age").transform_aggregate(
     color='HeartDisease:N',
     tooltip=[
         alt.Tooltip('count:Q', title="Total records"),
-        alt.Tooltip('frac:Q', title="Percentage of heart disease", format='.0%')
+        alt.Tooltip('frac:Q', title="Percentage", format='.0%')
     ]
 )
 
