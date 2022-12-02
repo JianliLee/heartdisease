@@ -7,7 +7,7 @@ st.set_page_config(
 
 st.write("# ♥️ Matters of the Heart! ♥️")
 
-st.sidebar.success("Select a page above for more information.")
+
 
 st.markdown(
     """
