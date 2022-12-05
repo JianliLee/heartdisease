@@ -32,3 +32,30 @@ Heart disease is the leading cause of death in the United States.  The term “h
 
 ![image](https://user-images.githubusercontent.com/97680882/205705530-edc5c8d7-9760-4416-8544-96c4ed81f72a.png)
 
+## Data Model
+- Dependent Variable: Heart Disease Probability
+- Independent Variables: 
+  - BMI
+  - Smoking
+  - Alcohol Drinking
+  - Stroke
+  - Physical Health
+  - Mental Health
+  - Difficult Walking
+  - Sex
+  - Age
+  - Race
+  - Diabete
+  - Sports
+  - General Health
+  - Sleep Time
+  - Asthama
+  - Kidney Disease
+  - Skin Cancer
+- Classification Model: Logit Regression Model
+
+## Streamlit App
+Streamlit is more than just a way to make data apps, it’s also a community of creators that share their apps and ideas and help each other make their work better. Here is the published streamlit [app](https://heartdiseaserisk.streamlit.app/) for heart disease analysis. 
+ 
+## Future Work
+I plan to add more factors to imporve the accuracy of the model for the future work.  
