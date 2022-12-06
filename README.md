@@ -7,6 +7,10 @@ Heart disease is the leading cause of death in the United States.  The term “h
 - What's your risk level for heart disease? 
 - How can you greatly reduce risk for heart disease through lifestyle changes and, in some cases, medicine? 
 
+## Data Source
+- The data source was from [CDC](https://data.cdc.gov/)
+- The dataset was tailored and downloaded from [Kaggle](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/download?datasetVersionNumber=2)
+
 ## Data Design
 - Review and clean the data
 - Explore the data to identify the key factors
