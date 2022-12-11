@@ -59,7 +59,7 @@ Heart disease is the leading cause of death in the United States.  The term “h
 - Classification Model: Logit Regression Model
 
 ## Streamlit App
-Streamlit is more than just a way to make data apps, it’s also a community of creators that share their apps and ideas and help each other make their work better. Here is the published streamlit [app](https://heartdiseaserisk.streamlit.app/) for heart disease analysis. 
+Streamlit is more than just a way to make data apps, it’s also a community of creators that share their apps and ideas and help each other make their work better. Here is the published streamlit [app](https://heartdisease.streamlit.app/) for heart disease analysis. 
  
 ## Future Work
 I plan to add more factors to imporve the accuracy of the model for the future work.  
