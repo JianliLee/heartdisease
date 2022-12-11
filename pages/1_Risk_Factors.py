@@ -22,7 +22,11 @@ st.markdown(
 )
 
 
-hd = pd.read_csv ('heart_2020_cleaned_JL.csv')
+@st.cache
+def load_dataset():
+    return pd.read_csv ('heart_2020_cleaned_JL.csv')
+hd = load_dataset()
+
 
 # bar_age = alt.Chart(hd,title= "Age").mark_bar().encode(
 #     x="AgeCategory",
